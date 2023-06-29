@@ -20,7 +20,7 @@
 - Using sale.order view to display fields in sale.order.line
 
 ## Topics I need clarification on
-- Defining cost/ext. cost in sale.order.line but displaying it using an inherited sale.order view NOT sale.order.line view was confusing. I figured out how it worked after trial and error and I think the behavior is like so because sale.order is related to sale.order.line in a one2many relationship but I will need more clarification on this. 
+- Defining cost/ext. cost in sale.order.line but displaying it using an inherited sale.order view NOT sale.order.line view was confusing. I figured out how it worked after trial and error and I think the behavior is like so because sale.order is related to sale.order.line in a one2many relationship but I will need more clarification on this. (Adam helped me with this and I understand it now)
       
 ## Interns who helped me
 - PHSN - 5 - Helped make my xpath more specfic which allowed the fields to be properly displayed
