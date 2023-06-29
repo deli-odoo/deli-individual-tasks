@@ -9,6 +9,9 @@
                 <field name="cost"/>
                 <field name="ext_cost"/>
             </xpath>
+            <xpath expr="//field[@name='tax_totals']" position="after">
+                <field name="cost_total"/>
+            </xpath>
         </field>
     </record>
 </odoo>
