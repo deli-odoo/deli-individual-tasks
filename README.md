@@ -6,10 +6,10 @@
 - [X] Create initial working module with init and manifest files
 - [X] Create a model and views folder
 - [X] Inherit the sale.order.line model
-- [ ] Add 2 new computed fields to sale order line: ext. cost and total cost (unless such a field already exists in source)
-- [ ] Create 2 functions with the depends decorator to compute these fields based on information in the SO
-- [ ] Inherit the sale.order view 
-- [ ] Display the newly created fields correctly in the form with xpath
+- [X] Add 2 new computed fields to sale order line: ext. cost and total cost (unless such a field already exists in source)
+- [X] Create 2 functions with the depends decorator to compute these fields based on information in the SO
+- [X] Inherit the sale.order view 
+- [X] Display the newly created fields correctly in the form with xpath
 - [ ] Profit
 
 ## Issues/Blocking Points

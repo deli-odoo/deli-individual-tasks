@@ -13,3 +13,11 @@ class SaleOrderLine(models.Model):
                 line.cost = line.product_template_id.standard_price
             else:
                 line.cost = False
+    
+    @api.depends('name', 'product_uom_qty')
+    def _compute_ext_cost(self):
+        for line in self:
+            if line.cost:
+                line.ext_cost = line.cost * line.product_uom_qty
+            else:
+                line.ext_cost = False
