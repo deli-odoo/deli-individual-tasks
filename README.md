@@ -6,10 +6,12 @@
 - [X] Create initial files and folders
 - [X] Play around with the ecommerce module to figure out what it does
 - [X] Create a checkbox in settings to disable/enable price and cart
-    - [ ] Inherit res.config.settings and create a bool field 
-    - [ ] Inherit the view as well and display the book field with a checkbox
+    - [X] Inherit res.config.settings and create a bool field 
+    - [X] Inherit the view as well and display the book field with a checkbox
+    - [ ] Since res.config.model is a transient model, create getter and setter methods to store/read the bool field from ir.config_parameter
 
 ## Issues/Blocking Points
+- Not an issue but I had to do some research on res.config.settings and how the data is actually stored
 
 ## Topics I need clarification on
       

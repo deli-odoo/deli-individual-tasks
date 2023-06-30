@@ -8,7 +8,7 @@
     "license": "OPL-1",
     "depends": ["website_sale"],
     "data": [
-
+        "views/res_config_settings_inherit.xml"
     ],
     "demo": [],
     "author": "Odoo Inc",
