@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+   <template inherit_id="website_sale.product" active="False" id="disable_cart" name="Disable Cart Button">
+        <xpath expr="//div[@id='add_to_cart_wrap']" position="replace">
+               <div id='add_to_cart_wrap'></div>
+        </xpath>
+   </template>
+<!-- 
+   <template inherit_id="website_sale.product" active="False" id="disable_price" name="Disable Price">
+        <xpath expr="//div[not(@id) and not(@class)]"  position="replace">
+               <div id='product_price'></div>
+        </xpath>
+   </template> 
+   Could not find the correct xpath to replace the product price
+   -->
+</odoo>
